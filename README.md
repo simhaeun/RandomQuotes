@@ -5,8 +5,17 @@
 ![image](https://user-images.githubusercontent.com/58839497/211774267-b6a34fe8-fb10-4c29-8bf8-fbf8b1890860.png)
 
 ## 랜덤 명언 제조기
-- Rest Api 서버 직접 개발해서 적용해보았다 !
-- axios로 Data 불러오기
+
+### 백엔드 맛보기 😛
+Rest Api 서버 직접 개발해서 적용해보았다 !
+프론트엔드 개발자는 여러 직군들과 소통을 하는 것이 중요하다.
+상대가 어떤 일을 하는 지 정확히 인지하고 일을 한다면 소통을 잘 할 수 있겠지 😀 
+
+### 포스트맨(Postman)
+get, post, delete, put 
+![image](https://user-images.githubusercontent.com/58839497/211779022-84a0d3ee-2ce4-4c6c-ab43-3090496577a3.png)
+
+### axios로 Data 불러오기
 ```tsx
 useEffect(() => {
     if(page === 'main') {
@@ -103,3 +112,8 @@ useEffect(() => {
 }
 </Flex>
 ```
+
+---
+개발한 서버를 실행시키지 않으면 명언을 불러오지 못했다는 오류가 뜨는데, 
+![image](https://user-images.githubusercontent.com/58839497/211778128-b67dbff7-09b2-492c-9bc5-ddde67713385.png)
+해결 방법은 아직 모르겠다.. 아직 알아야 할 것들이 너무 많다 !!!
